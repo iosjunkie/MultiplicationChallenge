@@ -6,7 +6,7 @@ A fork from alemohamad but with modifications.
 
 #### Am I learning from this?
 - Well, fortunately yes! I thought I'd be just changing things here and there, but there's actually tons of things to learn in someone else's code. Some methods of his application shone some light into things that weren't clear before.
-- I've also learnt about limitations such as PickerView not being customizable at this point.
+- I've also learnt about limitations such as SegmentedPicker not being customizable at this point.
 
 #### What I modified
 - Easiest task first: Added a bottom bar in section two.
