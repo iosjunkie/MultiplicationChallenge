@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		99059949236DBB9E00FF3446 /* MultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
 		9905994B236DCFEC00FF3446 /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
-		995EB8842369FD8A0097173E /* Challenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		995EB8842369FD8A0097173E /* MultiplicationChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		995EB8872369FD8A0097173E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		995EB8892369FD8A0097173E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		995EB88B2369FD8A0097173E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		995EB87B2369FD8A0097173E = {
 			isa = PBXGroup;
 			children = (
-				995EB8862369FD8A0097173E /* Challenge2 */,
+				995EB8862369FD8A0097173E /* MultiplicationChallenge */,
 				995EB8852369FD8A0097173E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		995EB8852369FD8A0097173E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				995EB8842369FD8A0097173E /* Challenge2.app */,
+				995EB8842369FD8A0097173E /* MultiplicationChallenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		995EB8862369FD8A0097173E /* Challenge2 */ = {
+		995EB8862369FD8A0097173E /* MultiplicationChallenge */ = {
 			isa = PBXGroup;
 			children = (
 				995EB8872369FD8A0097173E /* AppDelegate.swift */,
@@ -76,7 +76,7 @@
 				995EB8892369FD8A0097173E /* SceneDelegate.swift */,
 				9971E348236DF48D002F15A2 /* SettingsView.swift */,
 			);
-			path = Challenge2;
+			path = MultiplicationChallenge;
 			sourceTree = "<group>";
 		};
 		995EB88F2369FD8B0097173E /* Preview Content */ = {
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		995EB8832369FD8A0097173E /* Challenge2 */ = {
+		995EB8832369FD8A0097173E /* MultiplicationChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 995EB8982369FD8B0097173E /* Build configuration list for PBXNativeTarget "Challenge2" */;
+			buildConfigurationList = 995EB8982369FD8B0097173E /* Build configuration list for PBXNativeTarget "MultiplicationChallenge" */;
 			buildPhases = (
 				995EB8802369FD8A0097173E /* Sources */,
 				995EB8812369FD8A0097173E /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = Challenge2;
+			name = MultiplicationChallenge;
 			productName = Challenge2;
-			productReference = 995EB8842369FD8A0097173E /* Challenge2.app */;
+			productReference = 995EB8842369FD8A0097173E /* MultiplicationChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 995EB87F2369FD8A0097173E /* Build configuration list for PBXProject "Challenge2" */;
+			buildConfigurationList = 995EB87F2369FD8A0097173E /* Build configuration list for PBXProject "MultiplicationChallenge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				995EB8832369FD8A0097173E /* Challenge2 */,
+				995EB8832369FD8A0097173E /* MultiplicationChallenge */,
 			);
 		};
 /* End PBXProject section */
@@ -301,16 +301,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Challenge2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplicationChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = WCNR2RY47A;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Challenge2/Info.plist;
+				INFOPLIST_FILE = MultiplicationChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alemohamad.Challenge2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MultiplicationChallenge;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,16 +321,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Challenge2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MultiplicationChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = WCNR2RY47A;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Challenge2/Info.plist;
+				INFOPLIST_FILE = MultiplicationChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alemohamad.Challenge2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MultiplicationChallenge;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		995EB87F2369FD8A0097173E /* Build configuration list for PBXProject "Challenge2" */ = {
+		995EB87F2369FD8A0097173E /* Build configuration list for PBXProject "MultiplicationChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				995EB8962369FD8B0097173E /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		995EB8982369FD8B0097173E /* Build configuration list for PBXNativeTarget "Challenge2" */ = {
+		995EB8982369FD8B0097173E /* Build configuration list for PBXNativeTarget "MultiplicationChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				995EB8992369FD8B0097173E /* Debug */,
