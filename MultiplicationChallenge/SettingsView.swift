@@ -17,14 +17,15 @@ struct SettingsView: View {
     
     var completion: (_ multiplication: Int, _ howManyQuestions: Int) -> ()
     
-    
-    
     var body: some View {
-        Group {
+        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.black], for: .selected)
+        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .normal)
+
+        return Group {
             Text("Multi Play Cation")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .padding(.bottom, 24.0)
+                .padding(.top, 24)
             
             Group {
                 Text("Choose the multiplication table")
