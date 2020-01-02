@@ -87,11 +87,15 @@ struct SettingsView: View {
             .padding(.bottom, 24.0)
             
             Button(action: {
-                self.completion(self.multiplicationTableSelected, self.questionsOptions[self.selectedManyQuestions])
+                withAnimation(.easeIn) {
+                    self.completion(self.multiplicationTableSelected, self.questionsOptions[self.selectedManyQuestions])
+                }
             }) {
                 Text((multiplicationTableSelected == 0) ? "Choose a table" : "Let's play with \(multiplicationTableSelected)!")
                     .font(.title)
                     .fontWeight(.bold)
+                .offset(x: multiplicationTableSelected > 0 ? -5 : 0)
+                .animation(Animation.linear(duration: 0.1).repeatCount(multiplicationTableSelected > 0 ? 5 : 0))
             }
             .disabled(multiplicationTableSelected == 0)
             Spacer()

@@ -10,11 +10,19 @@ import SwiftUI
 
 struct MultiplicationView: View {
     var number: Int
+    @State private var tapped = false
+    @State private var origin:CGFloat = 1
     var completion: (_ pos: Int) -> ()
 
     var body: some View {
         VStack {
             Button(action: {
+                self.tapped.toggle()
+                self.origin += 0.4
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                    self.tapped.toggle()
+                    self.origin = 1
+                }
                 self.completion(self.number)
             }) {
                 VStack {
@@ -25,6 +33,8 @@ struct MultiplicationView: View {
                         .fontWeight(.bold)
                         .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 20.0, alignment: .center)
                 }
+            .scaleEffect(origin)
+            .animation(Animation.linear(duration: 0.1).repeatCount(tapped ? 5 : 0))
             }
         }
         .frame(minWidth: 0, maxWidth: .infinity)
