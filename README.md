@@ -12,3 +12,9 @@ A fork from alemohamad but with modifications.
 - Easiest task first: Added a bottom bar in section two.
 - Changed text color of the segmented picker to white when .normal.
 - Fixed some paddings
+- Animations:
+  - When an animal is tapped, it enlarges and goes back to normal size in a span of 0.1 second
+  - Same thing happens to `Let's play with #!`, but from left to original position, instead of size
+  - When game has started, the animal radiates a box around it
+  - When a wrong answer is chosen, the animal shows a feedback
+  - Transition from moving between views `.transition(.scale)`
